@@ -1,0 +1,78 @@
+.navbar{
+    background-color:rgb(53,58,58);
+}
+.navbar-toggler{
+    background-color: rgb(212,212,212);
+}
+
+.navbar a{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: arial;
+    color: white !important;
+
+    margin: 15px;
+}
+.navbar a:hover{
+    color: rgb(254,161,1) !important;
+}
+
+.carousel-inner img{
+    margin: auto;
+}
+
+.rodape{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(56,55,97);
+}
+
+h1{
+    color: rgb(22,23,22);
+    font-size: 40px;
+    margin-top: 15px;
+    margin-left: 25pt;
+}
+h2{
+    color: rgb(209,6,113);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50pt;
+}
+.row img{
+    margin-right: 20px;
+}
+
+.text{
+    font-weight: bold;
+}
+.text p{
+    color: darkslategray;
+    margin-left: 50pt;
+}
+.text li{
+    margin-left: 50pt;
+}
+.text img{
+    margin-left: 5em;
+    margin-bottom: 50pt;
+    height: 250px;
+}
+
+.descricao{
+    color: darkslategray;
+}
+
+.img-left{
+    float: left;
+}

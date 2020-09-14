@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="icon" href="./logos/favicon.png">
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>HOUSE PAINT</title>
+  </head>
+  <body>
+    <div class="row" style="margin-bottom: 5px;">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a href="index.html">
+                    <img src="./logos/logo-450-250.png" width="250" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="sobre.html">Sobre a empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços da empresa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clientes.html">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orcamento.html">Orçamentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contatos</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 50px;">
+        <div class="col">
+            <div class="text">
+                <h1>Orçamentos</h1>
+                <p>
+                    A House Paint conta com uma equipe especializada para realizar o orçamento de sua obra, 
+                    utilize esta ferramenta para solicitar um orçamento e receber uma visita em sua casa 
+                    para um levantamento mais preciso e detalhado de suas necessidades.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <h1>Preencha e envie o formulário abaixo.</h1>
+    <br>
+    <div class="row">
+        <div class="col ml-3">
+            <form>
+                <div class="form-group">
+                  <label for="nome">Nome Completo</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo aqui">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone</label>
+                    <input type="number" class="form-control" id="telefone" placeholder="Digite seu telefone aqui">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="text" class="form-control" id="email" placeholder="Digite seu endereço de e-mail aqui">
+                </div>
+
+                <div class="form-group">
+                    <label for="rua">Endereço</label>
+                    <input type="text" class="form-control" id="rua" placeholder="Digite seu endereço aqui">
+                </div>
+
+                <div class="form-group">
+                    <label for="bairro">Bairro</label>
+                    <input type="text" class="form-control" id="bairro" placeholder="Digite aqui o bairro onde você mora">
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" class="form-control" id="cidade" placeholder="Digite aqui a cidade onde você mora">
+                </div>
+                
+                <h4>Marque os serviços desejados:</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="acabamento">
+                    <label class="form-check-label" for="acabamento">
+                      Acabamento
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="gesso">
+                    <label class="form-check-label" for="gesso">
+                      Gesso
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="pintura-grades">
+                    <label class="form-check-label" for="pintura-grades">
+                      Pintura em grades e/ou aberturas
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="pintura-interna">
+                    <label class="form-check-label" for="pintura-interna">
+                      Pintura interna
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="pintura-externa">
+                    <label class="form-check-label" for="pintura-externa">
+                      Pintura externa
+                    </label>
+                </div>
+                
+                <br>
+                <h4>Tipo de residência:</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoResidencia" id="nova" value="opcao1" checked>
+                    <label class="form-check-label" for="nova">
+                      Nova
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="tipoResidencia" id="usada" value="opcao2">
+                    <label class="form-check-label" for="usada">
+                      Usada
+                    </label>
+                </div>
+                 
+                <br>
+                <h4>Horário desejado para visida da equipe para orçamento:</h4>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="inicioManha" value="opcao2">
+                    <label class="form-check-label" for="inicioManha">
+                      Início da manhã
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="meioManha" value="opcao2">
+                    <label class="form-check-label" for="meioManha">
+                      Meio da manhã
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="meioDia" value="opcao2">
+                    <label class="form-check-label" for="meioDia">
+                      Meio dia
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="inicioTarde" value="opcao2">
+                    <label class="form-check-label" for="inicioTarde">
+                      Início da tarde
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="meiaTarde" value="opcao2">
+                    <label class="form-check-label" for="meiaTarde">
+                      Meia tarde
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="horario" id="finalTarde" value="opcao2">
+                    <label class="form-check-label" for="finalTarde">
+                      Final da tarde
+                    </label>
+                </div>
+
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </div>
+
+    <div class="row" style="margin-top: 75px;">
+        <div class="col">
+            <div class="rodape">
+                Felipe Antonio Bolfe Pasqualotto - Programação para a WEB, UNOESC - Chapecó
+                <br>
+                <a href="HousePaint.zip" download>Download do projeto</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
